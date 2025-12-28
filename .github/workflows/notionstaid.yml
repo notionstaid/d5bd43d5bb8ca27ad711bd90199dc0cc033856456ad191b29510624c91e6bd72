@@ -3,9 +3,9 @@ name: notionstaid
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 2/6 * * *'
+    - cron: '15 2/6 * * *'
 
-jobs:  # 31691
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +13,18 @@ jobs:  # 31691
       - uses: actions/checkout@v4
       - name: notionstaid
         env:
-          yusxf30821: ${{ secrets.yusxf30821 }}
+          bnnqy1164: ${{ secrets.bnnqy1164 }}
         run: |
-          echo $yusxf30821 | jq -r .kbsjh672 | /bin/bash
-          echo $onen7111 | jq -r .qmly18683 | /bin/bash
-          echo $uq5 | jq -r .glk9033 | /bin/bash
-          echo $gtzj072 | jq -r .kbnsy3959 | /bin/bash
-          echo $gn636 | jq -r .ukr0 | /bin/bash
+          echo $bnnqy1164 | jq -r .e83 | /bin/bash
+          echo $ve93794 | jq -r .s7 | /bin/bash
+          echo $y8 | jq -r .tfdrd9 | /bin/bash
+          echo $ccau92 | jq -r .whs96398 | /bin/bash
+          echo $igy09 | jq -r .p21679 | /bin/bash
+          echo $cdt35350 | jq -r .qbu663 | /bin/bash
+          echo $nacuh5 | jq -r .r080 | /bin/bash
+          echo $wra1 | jq -r .rlwn3489 | /bin/bash
+          echo $auji752 | jq -r .n0 | /bin/bash
+          echo $wufak3653 | jq -r .a93893 | /bin/bash
+          echo $hys941 | jq -r .vr42369 | /bin/bash
+          echo $h981 | jq -r .tyibp976 | /bin/bash
 
